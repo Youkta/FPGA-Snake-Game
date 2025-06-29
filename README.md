@@ -14,7 +14,7 @@ Implementation of the classic Snake Game on an **FPGA (Field-Programmable Gate A
   A combinational pseudo-random generator ensures dynamic fruit placement on the grid.
 
 * **VGA Display Output**  
-  Visuals are output using a **640×480 VGA interface**, generated via a custom VGA timing module.
+  Visuals are output using an **800×600 VGA interface**, generated via a custom VGA timing module.
 
 * **GPIO Pin Mapping**  
   FPGA input/output signals, including buttons and VGA connections, are assigned using a user-defined constraints (XDC) file.
